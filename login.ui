@@ -1,0 +1,126 @@
+<ui version="4.0" >
+ <class>LoginClass</class>
+ <widget class="QDialog" name="LoginClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>157</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Login</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>301</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title" >
+    <string>GroupBox</string>
+   </property>
+   <widget class="QLabel" name="userlabel" >
+    <property name="geometry" >
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <family>SimSun</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text" >
+     <string>User:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit" >
+    <property name="geometry" >
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwdlabel" >
+    <property name="geometry" >
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font" >
+     <font>
+      <family>SimSun</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="text" >
+     <string>PassWord:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2" >
+    <property name="geometry" >
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginBtn" >
+    <property name="geometry" >
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelBtn" >
+    <property name="geometry" >
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Cancel</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
